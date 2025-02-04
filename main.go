@@ -23,7 +23,7 @@ func attack(charName, charClass string) string {
 
 // обратите внимание на "if else" и на "else"
 func defence(charName, charClass string) string {
-	if char_class == "warrior" {
+	if charClass == "warrior" {
 		return fmt.Sprintf("%s блокировал %d урона.", charName, 10+randint(5, 10))
 	} else if charClass == "mage" {
 		return fmt.Sprintf("%s блокировал %d урона.", charName, 10+randint(-2, 2))
